@@ -119,5 +119,6 @@ def player_with_longest_name
         longest_name = player[:player_name]
     end
   end
+end
   return longest_name
 end
