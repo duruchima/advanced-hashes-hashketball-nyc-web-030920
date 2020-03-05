@@ -89,7 +89,7 @@ def most_points_scored
       if most > most_points
         most_points = most
     end
-  end
+
 
   most_points
 end
