@@ -90,6 +90,6 @@ def most_points_scored
         most_points = most
     end
   end
-  
+
   most_points
 end
