@@ -110,3 +110,14 @@ def winning_team
   end
   return win_team
 end
+
+def player_with_longest_name
+  longest_name= ""
+  game_hash.each do |home_away, keys|
+    keys[:players].each do |player|
+      if player[:player_name].length > longest_name
+        longest_name = player[:player_name]
+    end
+  end
+  return longest_name
+end
